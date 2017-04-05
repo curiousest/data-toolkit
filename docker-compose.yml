@@ -1,0 +1,19 @@
+notebook:
+  build: .
+  volumes:
+    - ./data_toolkit:/home/jovyan/work/data_toolkit
+  ports:
+    - "8888:8888"
+  command: start-notebook.sh
+#  links:
+#    - postgis
+
+#postgis:
+#  image: mdillon/postgis
+#  ports:
+#    - "5432:5432"
+#  volumes:
+#    - ./postgis:/var/lib/postgresql/data
+#  environment:
+#    POSTGRES_USER: some_db_user
+#    POSTGRES_DB: some_db_name
