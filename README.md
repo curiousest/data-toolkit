@@ -1,6 +1,6 @@
 # data-toolkit
 
-A jupyter notebook setup.
+A jupyter notebook setup using docker-compose.
 
 ## Run
 
